@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="">
+    <h1> STUDENT REGISTRATION FORM</h1>
+    <foam>
+        <table cellpading="10">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="First_Name" maxlength="30" />(max 30 character a-z and A-Z)</td>
+
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname" maxlength="30" />(max 30 character a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="dob" /></td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email_id" /></td>
+            </tr>
+            <tr>
+                <td>Mobile NO:</td>
+                <td><input type="tel" name="Mobile number" maxlength="10" />(10 Digit Number)</td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" value="male" />Male<input type="radio" name="gender"
+                        value="female" />Female</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="5" cols="22"></textarea></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><select name="city">
+                        <option value="">Select your city</option>
+                        <option value="khi">Karachi</option>
+                        <option value="lhr">Lahore</option>
+                        <option value="isl">Islamabad</option>
+                        <option value="phw">Peshawar</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><select name="country">
+                        <option value="">Select your country</option>
+                        <option value="pak">Pakistan</option>
+                        <option value="ind">India</option>
+                        <option value="afg">Afganistan</option>
+                        <option value="bng">Bangladesh</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Pin Code</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox" name="hobbies">Drawing
+                    <input type="checkbox" name="hobbies">Singing<input type="checkbox" name="hobbies">Dancig
+                    <input type="checkbox" name="hobbies">Skatching
+                </td>
+            </tr>
+            <tr>
+                <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+                <td>
+                    <table>
+
+                        <tr>
+                            <td align="center"><b>Sl.No.</b></td>
+                            <td align="center"><b>Examination</b></td>
+                            <td align="center"><b>Board</b></td>
+                            <td align="center"><b>Percentage</b></td>
+                            <td align="center"><b>Year of Passing</b></td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                            <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                            <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                            <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                            <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="center">(10 char max)</td>
+                            <td align="center">(upto 2 decimal)</td>
+                        </tr>
+                    </table>
+
+
+            <tr>
+                <td>Courses:</td>
+            </tr>
+            <tr>
+                <td>Applied for:</td>
+                <td><input type="checkbox" name="courses">BCA
+                    <input type="checkbox" name="courses">B.COM
+                    <input type="checkbox" name="courses">B.sc
+                    <input type="checkbox" name="courses">B.A
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="Reset" value="Reset" />
+                </td>
+            </tr>
+
+        </table>
+    </foam>
+
+</body>
+</htm
